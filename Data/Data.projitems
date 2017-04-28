@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>c4d604bf-a8be-4bd0-be92-19091ef72425</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Data</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Encryption\Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Encryption\Encrypt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entity\Configuration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entity\DbContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entity\Repository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Login.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\AppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\BaseEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ExplorerElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\FileTrack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\User.cs" />
+  </ItemGroup>
+</Project>

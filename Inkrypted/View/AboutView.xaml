@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Inkrypted.View.AboutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Inkrypted.View"
+             xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+             mc:Ignorable="d"
+             d:DesignHeight="400">
+    <Grid>
+
+        <StackPanel Margin="10" Width="400" VerticalAlignment="Stretch">
+            <TextBlock Text="À propos de Inkripted" FontSize="20" FontWeight="Bold" Margin="0,0,0,5" />
+            <TextBlock Text="Inkcripted a été développé à l'ETML sous la supervison de M.Sahli par Eric Preisig" TextWrapping="Wrap" />
+            <TextBlock Text="Ce logiciel a été créé dans le cardre du pré-TPI" TextWrapping="Wrap" Margin="0,10,0,0" />
+        </StackPanel>
+        <TextBlock VerticalAlignment="Bottom" Text="Version de Avril 2017" HorizontalAlignment="Right" FontSize="11" TextWrapping="Wrap" />
+    </Grid>
+</UserControl>
